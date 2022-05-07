@@ -18,8 +18,6 @@ export const AddBranchForm = ({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  console.log(formInitialValues, values);
-
   return (
     <Formik
       validateOnBlur
